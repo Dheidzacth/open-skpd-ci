@@ -1,4 +1,4 @@
-# CI-AdminLTE
+# SKPD
 CodeIgniter 3.1.10 with AdminLTE 2.3.11
 
 ## Installation
@@ -10,17 +10,10 @@ CodeIgniter 3.1.10 with AdminLTE 2.3.11
 // Fill in the file of your project here when you develop locally.
 $host_dev = 'CI-AdminLTE';
 
-// Fill in the domain name here when your project is online.
-// Example : www.johndoe.com
-//           johndoe.com
 $host_prod = 'your_domain.tld';
 ```
 4. Create a table named `ci_adminlte` and inject the data from the `install/sql/ci_adminlte.sql` file.
 5. Change if necessary the connection information to your database in the `application/config/database.php` file.
-
-## Demo
-
-https://demo.domprojects.com/ci-adminlte/auth/login
 
 ### Login
  * Email : `admin@admin.com` / Password : `password`
@@ -28,11 +21,6 @@ https://demo.domprojects.com/ci-adminlte/auth/login
 ## Browser Compatibility
 Support for most major browsers including Chrome, Firefox, IE9+, Opera and Safari.
 
-## Languages
-  * English
-  * French
-  * Portuguese (translation by [marcelod](https://github.com/marcelod))
-  * ... and more soon
 
 ## Server Requirements
 
